@@ -6,7 +6,7 @@ const execute = async (sql) => {
     user: "postgres",
     host: "localhost",
     database: "conductores",
-    password: "esteban19",
+    password: "",
     port: 5432,
   });
   await client.connect();
